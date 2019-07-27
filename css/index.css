@@ -2,7 +2,7 @@ html,body{
     height:100%;
 	width: 100%;
 	font-family: sans-serif;
-	margin:0;
+	margin:auto;
 	padding:0; 
 	border:0;
 	text-align:center;
@@ -17,4 +17,57 @@ nav{
 	height: 15%;
 	width:100%;
 	font-size:25px;
+    display: inline-block;
+}
+.container{
+	display:block;
+	margin:auto;
+}
+/* Should give a filter over the logo */
+.logo_container{
+    background: rgba(255, 179,102,.4);
+}
+.logo{
+	display:block;
+	float:left;
+}
+.logo img{
+	border-radius: 5px;
+	box-shadow: 0 8px 20px rgba(230, 230, 255);
+	width: 50px;
+	height: 50px;
+}
+/*container that hold the title on the right*/
+.menu{
+	padding: 10px;
+	display:inline-block;
+	margin:auto;
+	float:right;
+}
+.effect{
+	color: rgb(128, 66, 0);
+	text-shadow:0 0px 10px rgba(255, 230, 204,.6);
+    text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	padding:10px;
+	cursor:pointer;
+	border:none;
+	display:auto;
+	transition: 1s;
+	font-weight:bold;
+}
+/*Changes the color of the nav titles*/
+.effect:hover,.effect:focus{
+	color:rgb(204, 105, 0);
+	text-shadow:0 0px 20px hsl(240, 52%, 95%);
+}
+
+/*home,about, petition and signup are containers that hold content of their respective titles*/
+.hold{
+	display:inline-block;
+	position:relative;
+}
+.l{
+    display: none;
 }
