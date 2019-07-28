@@ -40,7 +40,6 @@ nav{
 /*container that hold the title on the right*/
 .menu{
 	padding: 10px;
-	display:inline-block;
 	margin:auto;
 	float:right;
 }
